@@ -13,7 +13,7 @@
 4）制作网页终端，树莓派通过网络将数据发送给终端；
 5）终端可以显示采集分析后的结果，可以做到人为控制大棚的风扇、纱帘以及模拟灌溉系统。
 ![enter image description here](https://raw.githubusercontent.com/clutchyu/MarkDownPhotos/master/%E5%8A%9F%E8%83%BD.png)
-####模块说明
+#### 模块说明
 1）数据库模块：基于MySql数据库建立关系表，用来保存传感器节点采集的数据。
 2）服务器模块：基于JavaEE编写的动态网页，定时刷新数据，对传感器节点采集到的数据进行pc端显示。
 3）树莓派模块：基于android studio编写树莓派控制代码，控制传感器读数。
